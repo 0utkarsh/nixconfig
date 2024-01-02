@@ -65,5 +65,15 @@
       enable = true;
       nix-direnv.enable = true;
     };
+
+    # https://nixos.asia/en/git
+    git = {
+      enable = true;
+      userName = "Utkarsh Pandey";
+      userEmail = "utkarshpandey911@gmail.com";
+      extraConfig = {
+        init.defaultBranch = "main";
+      };
+    };
   };
 }
